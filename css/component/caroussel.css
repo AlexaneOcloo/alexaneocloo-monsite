@@ -1,0 +1,28 @@
+.wrapper {
+  overflow: hidden;
+}
+
+.sliding-background {
+  background: url(../../images/carou.png) repeat-x;
+  height: 350px;
+  width: 4000px;
+  animation: slide 60s linear infinite;
+}
+
+.sliding-background2 {
+  background: url(../../images/carou2.png) repeat-x;
+  height: 300px;
+  width: 4000px;
+  animation: slide 60s linear infinite;
+}
+
+
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
+
